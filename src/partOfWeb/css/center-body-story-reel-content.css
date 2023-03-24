@@ -1,0 +1,50 @@
+.story-reel-content-box {
+  padding-top: 17px;
+  width: 500px;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.story-reel-content-box > .MuiSvgIcon-root {
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+}
+
+.story-content-wrap,
+.reel-content-wrap {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.story-reel-btn-holder {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.story-reel-btn-holder > .circle-btn-wrap {
+  position: absolute;
+  color: #b0b3b8;
+  background-color: #3e4042;
+  height: 48px;
+  width: 48px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1000px;
+}
+
+.story-reel-btn-holder > .circle-btn-wrap:not(:first-child) {
+  right: 0;
+}
+
+.circle-btn-wrap:hover {
+  background-color: #4b4e51;
+  cursor: pointer;
+}

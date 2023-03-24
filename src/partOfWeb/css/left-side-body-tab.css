@@ -1,0 +1,140 @@
+.left-side-tabs {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: #e4e6eb;
+  border-radius: 8px;
+  height: 44px;
+  padding: 0px 8px;
+}
+
+.left-side-tabs:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.left-side-tabs > img {
+  width: 36px;
+}
+
+.left-side-tabs > p {
+  margin: 4px 6px 4px 8px;
+}
+
+.left-side-tabs > span {
+  padding: 12px 0;
+}
+
+.friends {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0 -296px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.watch {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0 -518px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.memories {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0 -444px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.marketplace {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0 -407px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.saved {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0 -185px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.funds {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0px -333px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.groups {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0px -74px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.pages {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0px -74px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.game-livestream {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0px -37px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.livestream {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/HkYcIGDQ3nj.png");
+  background-position: 0px -370px;
+  background-size: 37px 555px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.hienmau {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/n1L9705Oolh.png");
+  background-position: -722px -175px;
+  background-size: 941px 336px;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.messenger{
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/R0P6jqzFbUM.png"); background-position: 0px -37px; background-size: 37px 108px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;
+}

@@ -1,0 +1,64 @@
+.body-boxes {
+  overflow: hidden;
+  padding-right: 16px;
+  position: fixed;
+  z-index: 1000px;
+}
+
+.body-boxes:hover {
+}
+
+.height-control {
+  overflow-y: scroll;
+  padding-right: 0;
+  height: 90vh;
+}
+
+.Left-side-body-box {
+  background-color: #18191a;
+}
+
+.Left-side-body-box:hover {
+}
+
+.expand-box {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  height: 44px;
+}
+
+.expand-box:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.expand-btn {
+  display: inline;
+  background-color: #ffffff1a;
+  border-radius: 1000px;
+  text-align: start;
+  width: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin: 0 4px;
+  margin-left: 12.5px;
+}
+
+.expand-box > p {
+  color: #e4e6eb;
+  font-size: 0.9375rem;
+  margin: 4px 6px 4px 8px;
+}
+
+.line {
+  border-bottom: 1px solid #3e4042;
+  margin: 8px 16px 0 16px;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}

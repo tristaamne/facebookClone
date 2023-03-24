@@ -1,0 +1,49 @@
+.right-side-icon-box {
+  display: flex;
+  align-items: center;
+}
+
+.right-side-icon {
+  display: flex;
+  border-radius: 1000px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.right-side-icon:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  padding: 2.5px;
+}
+
+.right-side-icon:not(:first-child){
+    margin-left: 8px;
+}
+
+.right-side-avatar{
+    display: flex;
+}
+.user-ava {
+  margin: 0;
+  width: 40px;
+  border-radius: 1000px;
+  margin-left: 8px;
+  translate: transform 0.5s;
+}
+
+.right-side-avatar > img:active {
+  transform: scale(0.95);
+}
+
+.right-side-avatar:hover > img {
+  cursor: pointer;
+  filter: contrast(120%);
+}
+.selected {
+    background-color: #2d88ff33;
+}

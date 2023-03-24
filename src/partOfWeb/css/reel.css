@@ -1,0 +1,60 @@
+.reel-content-box {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 6px;
+  border-radius: 10px;
+  translate: all 1s;
+  overflow: hidden;
+}
+
+.reel-content-box > img {
+  width: 113px;
+  height: 200px;
+}
+
+.reel-content-box:hover {
+  cursor: pointer;
+}
+
+.reel-content {
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.reel-content-box:hover .reel-content {
+  transform: scale(1.02);
+}
+
+.reel-content-box:first-child {
+  margin-left: 16px;
+}
+
+.reel-index {
+  position: absolute;
+  color: #ffffff;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 4px;
+}
+
+.reel-index > p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.reel-index > p > svg {
+  padding: 3px;
+}
+
+.reel-index > p > p {
+  font-size: 12px;
+}

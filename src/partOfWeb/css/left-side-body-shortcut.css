@@ -1,0 +1,32 @@
+.shortcut-header{
+  font-size: 1.0625rem;
+  color: #b0b3b8;
+  font-weight: 600;
+  text-align: start;
+  padding: 20px 16px 4px 4px;
+}
+
+
+.left-side-shortcut {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 44px;
+  padding: 0 5px;
+}
+
+.left-side-shortcut:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.shortcut-img {
+  width: 28px;
+      border-radius: 9px;
+
+}
+
+.left-side-shortcut > p {
+  color: #e4e6eb;
+  margin: 4px 6px 4px 8px;
+}

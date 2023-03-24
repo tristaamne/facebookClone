@@ -1,0 +1,46 @@
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 7px 4px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: #ffffff1a;
+}
+.ava-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.ava-box > img {
+  width: 28px;
+  height: 28px;
+}
+
+.ava-box > svg {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  bottom: 3px;
+  right: 1px;
+  border-radius: 1000px;
+  border: solid black 1px;
+}
+
+.contact > p {
+  margin-left: 10px;
+  color: #e4e6eb;
+  font-weight: 500;
+}
+
+.offline {
+  visibility: hidden;
+}
+
+.ava-box > img {
+  border: 2px solid #2e89ff;
+  padding: 1px;
+}

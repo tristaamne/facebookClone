@@ -1,0 +1,31 @@
+.birth-day-box {
+  display: flex;
+  align-items: center;
+  color: #e4e6eb;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.birth-day-box:hover{
+    background-color: #ffffff1a;
+}
+
+.header-content{
+    color: #b0b3b8;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    text-align: start;
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.birth-day {
+  height: 36px;
+  width: 36px;
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/gj_OWvYLyJ2.png");
+  background-position: 0px 0px;
+  background-size: 37px 226px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}

@@ -1,0 +1,68 @@
+.story-content-box {
+ 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-right: 6px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.story-content-box > img {
+    width: 113px;
+    height: 200px;
+}
+
+.story-content-box:hover {
+  cursor: pointer;
+}
+
+.story-content{
+  border-radius: 10px;
+  transition: all 0.3s;
+
+}
+
+.story-content-box:hover .story-content{
+    transform:scale(1.02) ;
+}
+
+
+
+.story-content-box:first-child {
+  margin-left: 16px;
+}
+
+.user-avatar {
+  padding: 12px;
+  position: absolute;
+}
+
+.user-avatar > img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 1000px;
+  border: solid 4px #2e89ff;
+}
+
+.user-name {
+  position: absolute;
+  padding: 12px;
+  color: #ffffff;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  bottom: 0;
+  left: 0;
+  text-align: start;
+}
+
+.user-name > p {
+  width: 100px;
+
+}
