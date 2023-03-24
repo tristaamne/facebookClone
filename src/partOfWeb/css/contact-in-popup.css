@@ -1,0 +1,13 @@
+.contact-in-popup-wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.contact-in-popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 12px;
+}

@@ -7,9 +7,7 @@ import NotificationsActiveRoundedIcon from "@mui/icons-material/NotificationsAct
 import "../css/right-side-header.css";
 import UserAvatarCircle from "../../partOfWeb/js/user-avatar-circle";
 
-function RightSideHeader() {
-  const [selected, setSelected] = useState("");
-  console.log(selected);
+function RightSideHeader({setSelected, selected}) {
   return (
     <div className="right-side-icon-box">
       <div

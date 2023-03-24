@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import Iconbox from "../../components/js/icon-box.js";
 import RightSideHeader from "../../components/js/right-side-header";
+import HeaderPopup from "../../partOfWeb/js/header-popup";
 
 function Header() {
+  const [selected, setSelected] = useState();
+
   return (
     <div className="header-box">
       <div className="header-sticker">
@@ -24,12 +27,12 @@ function Header() {
         </div>
 
         <div className="right-side-header">
-          <RightSideHeader />
+          <RightSideHeader setSelected={setSelected} selected={selected} />
         </div>
       </div>
-      {/* <div className="header-popup">
-
-      </div> */}
+      <div className="header-popup">
+        <HeaderPopup />
+      </div>
     </div>
   );
 }
