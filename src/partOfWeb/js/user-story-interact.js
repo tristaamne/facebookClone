@@ -6,7 +6,7 @@ function UserStoryInteract() {
     <div className="user-interact-box">
       <img
         className="user-interact-image"
-        src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.30808-1/321822155_899708297707235_5749840580572609327_n.jpg?stp=dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=7206a8&_nc_ohc=G9DGv9TmaGkAX9LWz3q&_nc_ht=scontent.fsgn5-6.fna&oh=00_AfAwG6fhPaosRY8sshHkz3FC8VNCBD-RN__sUazLwpYycQ&oe=64184932"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRznIaYkSKhyLqz3D7pUked0X9Dc47qbF3k6EzydCdK&s"
       ></img>
       <div className="user-interact-text">
         <div className="user-interact-text-icon-box">
