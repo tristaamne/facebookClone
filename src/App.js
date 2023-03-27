@@ -3,7 +3,7 @@ import Body from "./bigPartsOfWeb/js/body";
 import Header from "./bigPartsOfWeb/js/header.js";
 
 function App() {
-  if ( false ) {
+  if (false) {
   } else {
     return (
       <div className="App">

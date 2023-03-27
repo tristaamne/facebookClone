@@ -21,11 +21,11 @@ function CenterBody() {
         <CenterBodyStatusPostHandle />
       </div>
       <div className="center-body-status-wrap">
-        <Post name="this is name"/>
-        <Post name="this is name"/>
-        <Post name="this is name"/>
-        <Post name="this is name"/>
-        <Post name="this is name"/>
+        <Post name="this is name" />
+        <Post name="this is name" />
+        <Post name="this is name" />
+        <Post name="this is name" />
+        <Post name="this is name" />
       </div>
     </div>
   );

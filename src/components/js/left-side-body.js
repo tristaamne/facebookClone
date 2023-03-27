@@ -48,21 +48,54 @@ function LeftSideBody() {
               content="Đơn hàng và thanh toán"
               src="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/vWBUs7aYAiK.png"
             />
-            <LeftSideBodyTabExpand content="Gần đây nhất" src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/kD5Sv0isIPs.png" />
+            <LeftSideBodyTabExpand
+              content="Gần đây nhất"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/kD5Sv0isIPs.png"
+            />
             <LeftSideBodyTab content="Hiến máu" icon="hienmau" />
-            <LeftSideBodyTabExpand content="Hoạt động quảng cáo gần đây" src="https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/cbPxeioybsd.png" />
+            <LeftSideBodyTabExpand
+              content="Hoạt động quảng cáo gần đây"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/cbPxeioybsd.png"
+            />
             <LeftSideBodyTab content="Messenger" icon="messenger" />
-            <LeftSideBodyTabExpand content="Messenger nhí" src="https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/ilSiTyZwdJA.png" />
+            <LeftSideBodyTabExpand
+              content="Messenger nhí"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/ilSiTyZwdJA.png"
+            />
             <LeftSideBodyTab content="Nhóm" icon="groups"></LeftSideBodyTab>
-            <LeftSideBodyTabExpand content="Sự kiện" src="https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/c_pBf4yN--n.png" />
+            <LeftSideBodyTabExpand
+              content="Sự kiện"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/c_pBf4yN--n.png"
+            />
             <LeftSideBodyTab content="Trang" icon="pages"></LeftSideBodyTab>
-            <LeftSideBodyTabExpand content="Trình quản lý quảng cáo" src="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/C949oxkze-S.png" />
-            <LeftSideBodyTabExpand content="Trung tâm khoa học khí hậu" src="https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/4LP02rGQaMl.png" />
-            <LeftSideBodyTabExpand content="Trung tâm quảng cáo" src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/lqymE2iRETE.png" />
-            <LeftSideBodyTabExpand content="Ứng phó khẩn cấp" src="https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/5CPaqlTUepF.png" />
-            <LeftSideBodyTab content="Video chơi game" icon="game-livestream"></LeftSideBodyTab>
-            <LeftSideBodyTab content="Video trực tiếp" icon="livestream"></LeftSideBodyTab>
-            <LeftSideBodyTabExpand content="Yêu thích" src="https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/nbUcQfHcgBv.png" />
+            <LeftSideBodyTabExpand
+              content="Trình quản lý quảng cáo"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/C949oxkze-S.png"
+            />
+            <LeftSideBodyTabExpand
+              content="Trung tâm khoa học khí hậu"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/4LP02rGQaMl.png"
+            />
+            <LeftSideBodyTabExpand
+              content="Trung tâm quảng cáo"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/lqymE2iRETE.png"
+            />
+            <LeftSideBodyTabExpand
+              content="Ứng phó khẩn cấp"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/5CPaqlTUepF.png"
+            />
+            <LeftSideBodyTab
+              content="Video chơi game"
+              icon="game-livestream"
+            ></LeftSideBodyTab>
+            <LeftSideBodyTab
+              content="Video trực tiếp"
+              icon="livestream"
+            ></LeftSideBodyTab>
+            <LeftSideBodyTabExpand
+              content="Yêu thích"
+              src="https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/nbUcQfHcgBv.png"
+            />
             <div
               className="expand-box"
               onClick={() => {

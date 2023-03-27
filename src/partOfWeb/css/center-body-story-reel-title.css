@@ -1,39 +1,39 @@
-.center-body-story-reel-box{
-    display: flex;
-    justify-content: space-between;
+.center-body-story-reel-box {
+  display: flex;
+  justify-content: space-between;
 }
 
-.title{
-    display: flex;
-    align-items: center;
-    padding-top: 21px;
-    padding: 18px 87px;
-    border-radius: 10px;
-    color: #b0b3b8;
-    font-size: 15px;
-    width: 280px;
-    display: flex;
-    justify-content: center;
+.title {
+  display: flex;
+  align-items: center;
+  padding-top: 21px;
+  padding: 18px 87px;
+  border-radius: 10px;
+  color: #b0b3b8;
+  font-size: 15px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
 }
-
 
 .title > p {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-.title:hover{
-    background-color: rgba(255,255,255,0.05);
-    cursor: pointer;
+.title:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
 }
 
-.story, .reel{
-    margin: 4px 0;
+.story,
+.reel {
+  margin: 4px 0;
 }
 
-.story{
-    margin-left: 16px;
+.story {
+  margin-left: 16px;
 }
 
-.reel{
-    margin-right: 16px;
+.reel {
+  margin-right: 16px;
 }

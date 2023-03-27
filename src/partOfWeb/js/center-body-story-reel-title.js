@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "../css/center-body-story-reel-title.css";
 
-function CenterBodyStoryReelTitle({storyreelSelector,StoryreelSelectorSet}) {
-
+function CenterBodyStoryReelTitle({ storyreelSelector, StoryreelSelectorSet }) {
   return (
     <div className="center-body-story-reel-box">
       <div
@@ -53,6 +52,5 @@ function CenterBodyStoryReelTitle({storyreelSelector,StoryreelSelectorSet}) {
     </div>
   );
 }
-
 
 export default CenterBodyStoryReelTitle;

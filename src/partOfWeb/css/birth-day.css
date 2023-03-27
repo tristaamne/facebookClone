@@ -7,17 +7,17 @@
   cursor: pointer;
 }
 
-.birth-day-box:hover{
-    background-color: #ffffff1a;
+.birth-day-box:hover {
+  background-color: #ffffff1a;
 }
 
-.header-content{
-    color: #b0b3b8;
-    font-size: 1.0625rem;
-    font-weight: 600;
-    text-align: start;
-    padding-top: 20px;
-    padding-bottom: 4px;
+.header-content {
+  color: #b0b3b8;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  text-align: start;
+  padding-top: 20px;
+  padding-bottom: 4px;
 }
 
 .birth-day {

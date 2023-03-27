@@ -1,6 +1,6 @@
 import React from "react";
-import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
-import '../css/reel.css'
+import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
+import "../css/reel.css";
 
 function Reel() {
   return (
@@ -11,8 +11,8 @@ function Reel() {
       ></img>
       <div className="reel-index">
         <p>
-            <PlayArrowRoundedIcon />
-            <p>6.3 Triệu</p>
+          <PlayArrowRoundedIcon />
+          <p>6.3 Triệu</p>
         </p>
       </div>
     </div>

@@ -1,5 +1,4 @@
 .story-content-box {
- 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,25 +13,22 @@
 }
 
 .story-content-box > img {
-    width: 113px;
-    height: 200px;
+  width: 113px;
+  height: 200px;
 }
 
 .story-content-box:hover {
   cursor: pointer;
 }
 
-.story-content{
+.story-content {
   border-radius: 10px;
   transition: all 0.3s;
-
 }
 
-.story-content-box:hover .story-content{
-    transform:scale(1.02) ;
+.story-content-box:hover .story-content {
+  transform: scale(1.02);
 }
-
-
 
 .story-content-box:first-child {
   margin-left: 16px;
@@ -64,5 +60,4 @@
 
 .user-name > p {
   width: 100px;
-
 }

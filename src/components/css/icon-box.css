@@ -14,7 +14,7 @@
   overflow: hidden;
 }
 
-.icon-box{
+.icon-box {
   display: flex;
   height: calc(100% - 2.7px);
   align-items: center;
@@ -24,8 +24,8 @@
   flex-direction: column;
 }
 
-.icon-wrap:not(:first-child){
-margin-left: 8px;
+.icon-wrap:not(:first-child) {
+  margin-left: 8px;
 }
 
 .icon-wrap svg {
@@ -52,6 +52,6 @@ margin-left: 8px;
   background-color: #2374e1;
 }
 
-#clickedText{
+#clickedText {
   color: #2374e1;
 }

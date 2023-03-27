@@ -1,8 +1,7 @@
 import React from "react";
-import '../css/header-popup.css';
+import "../css/header-popup.css";
 import SearchIcon from "@mui/icons-material/Search";
 import ContactInPopup from "./contact-in-popup";
-
 
 function HeaderPopup() {
   return (

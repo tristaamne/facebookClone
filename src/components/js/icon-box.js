@@ -16,8 +16,6 @@ function Iconbox(pageIndex) {
     setPageChange([pageIndex]);
   }
 
-
-
   return (
     <div className="headerIcon">
       <div
@@ -55,7 +53,7 @@ function Iconbox(pageIndex) {
       >
         <div className="icon-box">
           <OndemandVideoOutlinedIcon
-            style={{ color: pageChange == 1 ? "#2374e1" : "#B0B4B8"}}
+            style={{ color: pageChange == 1 ? "#2374e1" : "#B0B4B8" }}
             fontSize="large"
             className="icon"
           />
@@ -74,7 +72,7 @@ function Iconbox(pageIndex) {
       >
         <div className="icon-box" key={2}>
           <StorefrontOutlinedIcon
-               style={{ color: pageChange == 2 ? "#2374e1" : "#B0B4B8"}}
+            style={{ color: pageChange == 2 ? "#2374e1" : "#B0B4B8" }}
             fontSize="large"
             className="icon"
           />
@@ -93,7 +91,7 @@ function Iconbox(pageIndex) {
       >
         <div className="icon-box">
           <SupervisedUserCircleOutlinedIcon
-               style={{ color: pageChange == 3 ? "#2374e1" : "#B0B4B8"}}
+            style={{ color: pageChange == 3 ? "#2374e1" : "#B0B4B8" }}
             fontSize="large"
             className="icon"
           />
@@ -112,7 +110,7 @@ function Iconbox(pageIndex) {
       >
         <div className="icon-box">
           <VideogameAssetOutlinedIcon
-               style={{ color: pageChange == 4 ? "#2374e1" : "#B0B4B8"}}
+            style={{ color: pageChange == 4 ? "#2374e1" : "#B0B4B8" }}
             fontSize="large"
             className="icon"
           />

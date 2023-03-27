@@ -1,12 +1,12 @@
-import React from 'react'
-import '../css/chat-bubble-comps.css'
+import React from "react";
+import "../css/chat-bubble-comps.css";
 
 function ChatBubbleComps() {
   return (
-    <div className='bubble'>
-        <i className='create-new'></i>
+    <div className="bubble">
+      <i className="create-new"></i>
     </div>
-  )
+  );
 }
 
-export default ChatBubbleComps
+export default ChatBubbleComps;

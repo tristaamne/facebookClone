@@ -19,7 +19,7 @@ function Body() {
           <RightSideBody />
         </div>
       </div>
-        {/* <ChatBubble/> */}
+      {/* <ChatBubble/> */}
     </div>
   );
 }

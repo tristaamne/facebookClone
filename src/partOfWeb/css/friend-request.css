@@ -1,12 +1,12 @@
-.friend-request-box{
-    display: flex;
-    border-radius: 7px;
-    padding-top: 10px;
+.friend-request-box {
+  display: flex;
+  border-radius: 7px;
+  padding-top: 10px;
 }
 
-.friend-request-box:hover{
-    background-color: #ffffff1a;
-    cursor: pointer;
+.friend-request-box:hover {
+  background-color: #ffffff1a;
+  cursor: pointer;
 }
 
 .friend-request-box > .user-ava {
@@ -15,81 +15,78 @@
   margin-right: 8px;
 }
 
-.friend-request-content{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+.friend-request-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
-.friend-request-name-date{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.friend-request-name-date {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.friend-request-name-date > b{
-    font-weight: 600;
-    font-size: .9375rem;
-    max-width: 100%;
-    color: #e4e6eb;
+.friend-request-name-date > b {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  max-width: 100%;
+  color: #e4e6eb;
 }
 
 .friend-request-name-date > small {
-    max-width: 100%;
-    font-weight: 400;
-    color: #b0b3b8;
-    margin-right: 16px;
+  max-width: 100%;
+  font-weight: 400;
+  color: #b0b3b8;
+  margin-right: 16px;
 }
 
-.friend-request-common-friend{
-    display: flex;
-    margin-top: 7px;
+.friend-request-common-friend {
+  display: flex;
+  margin-top: 7px;
 }
 
-.friend-request-common-friend > .user-ava{
-    width: 16px;
-    margin-left: 0;
-
+.friend-request-common-friend > .user-ava {
+  width: 16px;
+  margin-left: 0;
 }
 
 .friend-request-common-friend > small {
-    padding-left: 4px;
-    color: #b0b3b8;
+  padding-left: 4px;
+  color: #b0b3b8;
 }
-.friend-request-btn{
-    padding-right:  12px;
-}
-
-.friend-request-btn > button{
-    width: 120px;
-    height: 36px;
-    border: none;
-    margin: 10px 4px;
-    color: #ffffff;
-    font-size: .9375rem;
-    font-weight: 600;
-    border-radius: 8px;
+.friend-request-btn {
+  padding-right: 12px;
 }
 
-.friend-request-btn > button{
-    cursor: pointer;
+.friend-request-btn > button {
+  width: 120px;
+  height: 36px;
+  border: none;
+  margin: 10px 4px;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border-radius: 8px;
 }
 
+.friend-request-btn > button {
+  cursor: pointer;
+}
 
-
-.friend-request-btn > button:first-child{
-    margin-left: 0;
+.friend-request-btn > button:first-child {
+  margin-left: 0;
 }
 
 .accept-btn {
-    background-color: #2374e1;
+  background-color: #2374e1;
 }
 
-.delete-btn{
-    background-color: #ffffff1a;
+.delete-btn {
+  background-color: #ffffff1a;
 }
 
-.underLine{
-    border-bottom: 1px solid #3e4042;
-    padding-bottom: 8px;
+.underLine {
+  border-bottom: 1px solid #3e4042;
+  padding-bottom: 8px;
 }
