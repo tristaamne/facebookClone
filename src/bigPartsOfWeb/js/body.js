@@ -5,8 +5,7 @@ import LeftSideBody from "../../components/js/left-side-body";
 import RightSideBody from "../../components/js/right-side-body";
 import "../css/body.css";
 
-function Body({popupOn , setPopupOn}) {
-
+function Body({ popupOn, setPopupOn }) {
   return (
     <div className="body-box">
       <div className="body-boxes left">
@@ -14,7 +13,7 @@ function Body({popupOn , setPopupOn}) {
           <LeftSideBody />
         </div>
       </div>
-      <CenterBody popupOn = {popupOn} setPopupOn = {setPopupOn} />
+      <CenterBody popupOn={popupOn} setPopupOn={setPopupOn} />
       <div className="body-boxes right">
         <div className="height-control">
           <RightSideBody />
