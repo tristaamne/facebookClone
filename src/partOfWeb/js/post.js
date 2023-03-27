@@ -15,7 +15,7 @@ function Post(user) {
                 </div>
             </div>
         </div>
-        <p className="post-content">This is post contentThis is post contentThis is post contentThis is post contentThis is post contentThis is post contentThis is post contentThis is post contentThis is post contentThis is post contentThis is post contentThis is post content</p>
+        <p className="post-content">As you can see down here, this is a Hà Mã</p>
         <img className='post-img' src='https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/337140067_609004134089367_408062151757378643_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=iloYqh7dUdUAX9JUm5t&_nc_ht=scontent.fdad3-4.fna&oh=00_AfCZBl4bmTuW3tc4YqJho2VZXeK_Cm8l2oISUQtT0XNi5A&oe=6425DE2A'></img>
 
     </div>

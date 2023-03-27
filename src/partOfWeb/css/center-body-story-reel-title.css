@@ -11,6 +11,9 @@
     border-radius: 10px;
     color: #b0b3b8;
     font-size: 15px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
 }
 
 

@@ -7,7 +7,7 @@ function Reel() {
     <div className="reel-content-box">
       <img
         className="reel-content"
-        src="https://scontent.fhan5-8.fna.fbcdn.net/v/t15.5256-10/335916042_927287225092415_4098857463482998295_n.jpg?stp=dst-jpg_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=lidlgxhPbRwAX9pD6C6&_nc_ht=scontent.fhan5-8.fna&oh=00_AfDJUaq0v_Ka82_eOuKWIaXHwNii8Sa0dphF7M_Ya_riFA&oe=64143A6D"
+        src="https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/ce12209d84c8911f6de681e8aea47af5~c5_720x720.jpeg?x-expires=1679968800&x-signature=U%2Bq4R5rkW14hbOwFHqLvosfaKRs%3D"
       ></img>
       <div className="reel-index">
         <p>
