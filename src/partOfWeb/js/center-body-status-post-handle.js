@@ -2,12 +2,12 @@ import React from "react";
 import UserAvatarCircle from "./user-avatar-circle";
 import "../css/center-body-status-post-handle.css";
 
-function CenterBodyStatusPostHandle() {
+function CenterBodyStatusPostHandle({PopupOn , setPopupOn}) {
   return (
     <div className="status-post-handle-box">
       <div className="status-post-handle up">
         <UserAvatarCircle />
-        <p>Trí Tâm ơi, bạn đang nghĩ gì thế?</p>
+        <p onClick={()=>{setPopupOn(true)}}>Trí Tâm ơi, bạn đang nghĩ gì thế?</p>
       </div>
       <div className="status-post-handle down">
         <div className="status-post-btn live-stream-btn">

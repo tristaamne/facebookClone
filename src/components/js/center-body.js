@@ -5,8 +5,10 @@ import CenterBodyStoryReelContent from "../../partOfWeb/js/center-body-story-ree
 import CenterBodyStatusPostHandle from "../../partOfWeb/js/center-body-status-post-handle";
 import Post from "../../partOfWeb/js/post";
 
-function CenterBody() {
+function CenterBody({popupOn , setPopupOn}) {
   const [storyreelSelector, storyreelSelectorSet] = useState("0");
+  console.log(popupOn)
+
 
   return (
     <div className="center-body-box">
@@ -18,7 +20,7 @@ function CenterBody() {
         <CenterBodyStoryReelContent storyreelSelector={storyreelSelector} />
       </div>
       <div className="center-body-status-post-handle-wrap">
-        <CenterBodyStatusPostHandle />
+        <CenterBodyStatusPostHandle popupOn = {popupOn} setPopupOn = {setPopupOn} />
       </div>
       <div className="center-body-status-wrap">
         <Post name="this is name" />
