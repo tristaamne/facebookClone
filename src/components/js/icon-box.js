@@ -49,7 +49,6 @@ function Iconbox(pageIndex) {
         onClick={() => {
           pagechangeHandle(1);
         }}
-        id=""
       >
         <div className="icon-box">
           <OndemandVideoOutlinedIcon
