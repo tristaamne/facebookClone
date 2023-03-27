@@ -1,10 +1,9 @@
 .story-reel-content-box {
   padding-top: 17px;
-  width: 500px;
-  overflow: hidden;
+  max-width: 590px;
   flex-wrap: nowrap;
-  overflow-x: scroll;
   position: relative;
+  overflow: hidden;
 }
 
 .story-reel-content-box > .MuiSvgIcon-root {

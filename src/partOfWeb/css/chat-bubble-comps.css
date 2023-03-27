@@ -1,0 +1,13 @@
+.bubble {
+    position: fixed;
+}
+
+.create-new {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y_/r/xi6mKjZ8HfB.png");
+  background-position: 0px -540px;
+  background-size: 33px 1492px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}

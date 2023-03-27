@@ -11,7 +11,7 @@ function CenterBodyStoryReelContent({ storyreelSelector }) {
   const [storyList, setStoryList] = useState([]);
   return (
     <div className="story-reel-content-box">
-      <KeyboardArrowLeftRoundedIcon />
+      {/* <KeyboardArrowLeftRoundedIcon /> */}
       <div className="story-reel-btn-holder">
         {storyreelSelector === "0" ? (
           <div className="story-content-wrap">

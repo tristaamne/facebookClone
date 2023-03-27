@@ -1,7 +1,7 @@
 body {
   padding-top: 56px;
-  overflow: hidden;
   height: 100vh;
+  background-color: #18191a;
 }
 
 .body-box {

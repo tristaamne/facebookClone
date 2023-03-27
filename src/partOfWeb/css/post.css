@@ -1,0 +1,50 @@
+.post-box {
+  color: white;
+  background-color: #242526;
+  padding: 12px 16px 0 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  max-width: 588px;
+}
+
+.post-header {
+  display: flex;
+}
+
+.post-header > .user-ava {
+  height: 40px;
+  width: 40px;
+}
+
+.post-header-name-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.post-header-user-name {
+  font-weight: 600;
+  font-size: inherit;
+}
+
+.posttime-mode .post-time {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #b0b3b8;
+}
+
+.post-box p {
+  text-align: start;
+}
+
+.post-content {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-bottom: 12px;
+  max-width: 700px;
+}
+
+.post-img{
+    width: 100%;
+}
